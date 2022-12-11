@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/vinodkotagiri-portfolio/static/css/main.e9eb0e98.css",
-    "main.js": "/vinodkotagiri-portfolio/static/js/main.f1835cdb.js",
+    "main.css": "/vinodkotagiri-portfolio/static/css/main.88bb070d.css",
+    "main.js": "/vinodkotagiri-portfolio/static/js/main.cb0f5466.js",
     "static/media/home-bg.png": "/vinodkotagiri-portfolio/static/media/home-bg.cc1273af450504afe755.png",
     "static/media/hero-img.svg": "/vinodkotagiri-portfolio/static/media/hero-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/vinodkotagiri-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/vinodkotagiri-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/vinodkotagiri-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/vinodkotagiri-portfolio/static/media/logo.51b33aa4d40b228940e653d2c6fc9fc3.svg",
+    "static/media/meter2.svg": "/vinodkotagiri-portfolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/vinodkotagiri-portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/medium.svg": "/vinodkotagiri-portfolio/static/media/medium.b104031f4a0b0280a20d5e44610549ab.svg",
     "static/media/linkedin.svg": "/vinodkotagiri-portfolio/static/media/linkedin.f49dc1c4e0fdf9f01690dfc43590d569.svg",
     "static/media/gitHub.svg": "/vinodkotagiri-portfolio/static/media/gitHub.9828ea2523b6efa8485604cb5b9eb728.svg",
     "index.html": "/vinodkotagiri-portfolio/index.html",
-    "main.e9eb0e98.css.map": "/vinodkotagiri-portfolio/static/css/main.e9eb0e98.css.map",
-    "main.f1835cdb.js.map": "/vinodkotagiri-portfolio/static/js/main.f1835cdb.js.map"
+    "main.88bb070d.css.map": "/vinodkotagiri-portfolio/static/css/main.88bb070d.css.map",
+    "main.cb0f5466.js.map": "/vinodkotagiri-portfolio/static/js/main.cb0f5466.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9eb0e98.css",
-    "static/js/main.f1835cdb.js"
+    "static/css/main.88bb070d.css",
+    "static/js/main.cb0f5466.js"
   ]
 }
