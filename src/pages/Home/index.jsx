@@ -39,7 +39,7 @@ export default function Home() {
 							maintainable web applications.
 						</p>
 						<button>
-							Let's Connect
+							Portfolio
 							<ArrowRightCircle size={25} />
 						</button>
 					</Col>

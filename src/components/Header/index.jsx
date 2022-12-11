@@ -48,7 +48,7 @@ export default function Header() {
 								Home
 							</Nav.Link>
 							<Nav.Link
-								href='#skills'
+								href='#skill'
 								className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
 								onClick={() => onUpdateActiveLink('skills')}>
 								Skills

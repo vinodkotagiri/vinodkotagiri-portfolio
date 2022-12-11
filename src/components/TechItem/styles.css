@@ -1,0 +1,13 @@
+.tech-item {
+	/* width: 64px; */
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+	justify-content: center;
+	padding: 4px;
+}
+.tech-item > small {
+	display: block;
+	margin-top: 8px;
+}
