@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/vinodkotagiri-portfolio/static/css/main.88bb070d.css",
-    "main.js": "/vinodkotagiri-portfolio/static/js/main.cb0f5466.js",
-    "static/media/home-bg.png": "/vinodkotagiri-portfolio/static/media/home-bg.cc1273af450504afe755.png",
-    "static/media/hero-img.svg": "/vinodkotagiri-portfolio/static/media/hero-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/CentraNo2-Bold.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/vinodkotagiri-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/revicons.eot": "/vinodkotagiri-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/vinodkotagiri-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/vinodkotagiri-portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/vinodkotagiri-portfolio/static/media/logo.51b33aa4d40b228940e653d2c6fc9fc3.svg",
-    "static/media/meter2.svg": "/vinodkotagiri-portfolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
-    "static/media/meter1.svg": "/vinodkotagiri-portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
-    "static/media/medium.svg": "/vinodkotagiri-portfolio/static/media/medium.b104031f4a0b0280a20d5e44610549ab.svg",
-    "static/media/linkedin.svg": "/vinodkotagiri-portfolio/static/media/linkedin.f49dc1c4e0fdf9f01690dfc43590d569.svg",
-    "static/media/gitHub.svg": "/vinodkotagiri-portfolio/static/media/gitHub.9828ea2523b6efa8485604cb5b9eb728.svg",
-    "index.html": "/vinodkotagiri-portfolio/index.html",
-    "main.88bb070d.css.map": "/vinodkotagiri-portfolio/static/css/main.88bb070d.css.map",
-    "main.cb0f5466.js.map": "/vinodkotagiri-portfolio/static/js/main.cb0f5466.js.map"
+    "main.css": "/static/css/main.8d41b94a.css",
+    "main.js": "/static/js/main.47fdf94a.js",
+    "static/media/home-bg.png": "/static/media/home-bg.cc1273af450504afe755.png",
+    "static/media/hero-img.svg": "/static/media/hero-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/static/media/logo.51b33aa4d40b228940e653d2c6fc9fc3.svg",
+    "static/media/meter2.svg": "/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/medium.svg": "/static/media/medium.b104031f4a0b0280a20d5e44610549ab.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.f49dc1c4e0fdf9f01690dfc43590d569.svg",
+    "static/media/gitHub.svg": "/static/media/gitHub.9828ea2523b6efa8485604cb5b9eb728.svg",
+    "index.html": "/index.html",
+    "main.8d41b94a.css.map": "/static/css/main.8d41b94a.css.map",
+    "main.47fdf94a.js.map": "/static/js/main.47fdf94a.js.map"
   },
   "entrypoints": [
-    "static/css/main.88bb070d.css",
-    "static/js/main.cb0f5466.js"
+    "static/css/main.8d41b94a.css",
+    "static/js/main.47fdf94a.js"
   ]
 }
