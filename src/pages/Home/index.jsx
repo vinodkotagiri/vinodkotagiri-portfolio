@@ -1,13 +1,10 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import React, { useEffect, useState } from 'react'
+import { Container, Row, Col, Button } from 'react-bootstrap'
+import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
+import { ArrowRightCircle, CloudDownload } from 'react-bootstrap-icons'
 import heroImg from '../../assets/svg/hero-img.svg'
-import { Link } from 'react-router-dom'
 import './styles.css'
 export default function Home() {
-	let texts = ['Web Developer', 'MERN stack Developer', 'Full Stack Developer', 'Web Designer']
-
 	return (
 		<section className='banner' id='home'>
 			<Container>
@@ -39,10 +36,24 @@ export default function Home() {
 							A Fullstack developer with experience in designing and developing modern, responsive, scalabale and
 							maintainable web applications.
 						</p>
-						<a href='#portfolio'>
-							Portfolio
-							<ArrowRightCircle size={25} />
-						</a>
+						<Row>
+							<Col md={3} className='align-items-center justify-content-center'>
+								<Button href='#portfolio' variant='outline-secondary' style={{ width: '150px' }}>
+									Portfolio
+									<ArrowRightCircle size={25} />
+								</Button>
+							</Col>
+							<Col md={4}>
+								<Button
+									href='#portfolio'
+									variant='info'
+									style={{ width: '150px' }}
+									onClick={() => window.open('https://1drv.ms/w/s!AqUO-r5Zn68aie5NhyJZFOt7JSdtBw?e=t6AAKt', '_blank')}>
+									Resume
+									<CloudDownload size={25} />
+								</Button>
+							</Col>
+						</Row>
 					</Col>
 					<Col xs={12} md={6} xl={5}>
 						<img src={heroImg} alt='hero-img' />

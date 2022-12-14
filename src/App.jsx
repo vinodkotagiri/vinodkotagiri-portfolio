@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Skills from './pages/Skills'
 import Portfolio from './pages/Portfolio'
 import Connect from './pages/Connect'
+import { Footer } from './components/Footer'
 export default function App() {
 	return (
 		<>
@@ -17,6 +18,7 @@ export default function App() {
 				<Portfolio />
 				<Connect />
 			</div>
+			<Footer />
 		</>
 	)
 }

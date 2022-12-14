@@ -8,6 +8,9 @@ export default function Portfolio() {
 	function loadMore() {
 		setIdx((prev) => prev + 3)
 	}
+	function showLess() {
+		if (idx > 3) setIdx((prev) => prev - 3)
+	}
 	console.log(Projects.length)
 	return (
 		<section id='portfolio' className='portfolio'>
@@ -20,9 +23,13 @@ export default function Portfolio() {
 						))}
 					</Row>
 					<Row className='button-wrapper'>
-						{Projects.length + 2 !== idx && (
+						{Projects.slice(0, idx).length === idx ? (
 							<Button style={{ width: 'fit-content' }} variant='info' onClick={loadMore}>
 								Load More
+							</Button>
+						) : (
+							<Button style={{ width: 'fit-content' }} variant='info' onClick={showLess}>
+								Show Less
 							</Button>
 						)}
 					</Row>
