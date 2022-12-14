@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import heroImg from '../../assets/svg/hero-img.svg'
+import { Link } from 'react-router-dom'
 import './styles.css'
 export default function Home() {
 	let texts = ['Web Developer', 'MERN stack Developer', 'Full Stack Developer', 'Web Designer']
@@ -38,10 +39,10 @@ export default function Home() {
 							A Fullstack developer with experience in designing and developing modern, responsive, scalabale and
 							maintainable web applications.
 						</p>
-						<button>
+						<a href='#portfolio'>
 							Portfolio
 							<ArrowRightCircle size={25} />
-						</button>
+						</a>
 					</Col>
 					<Col xs={12} md={6} xl={5}>
 						<img src={heroImg} alt='hero-img' />

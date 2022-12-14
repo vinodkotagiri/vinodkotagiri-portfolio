@@ -92,6 +92,12 @@ p.success {
 p.danger {
 	color: red;
 }
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
 /************ Banner Css ************/
 /* 
 

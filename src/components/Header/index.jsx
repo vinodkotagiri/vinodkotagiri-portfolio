@@ -48,13 +48,19 @@ export default function Header() {
 								Home
 							</Nav.Link>
 							<Nav.Link
+								href='#about'
+								className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'}
+								onClick={() => onUpdateActiveLink('about')}>
+								About
+							</Nav.Link>
+							<Nav.Link
 								href='#skill'
 								className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
 								onClick={() => onUpdateActiveLink('skills')}>
 								Skills
 							</Nav.Link>
 							<Nav.Link
-								href='#projects'
+								href='#portfolio'
 								className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
 								onClick={() => onUpdateActiveLink('projects')}>
 								Projects
@@ -62,13 +68,13 @@ export default function Header() {
 						</Nav>
 						<span className='navbar-text'>
 							<div className='social-icon'>
-								<a href='#'>
+								<a href='https://www.linkedin.com/in/kotagiri-vinod-a10ba856' target='_blank' rel='noreferrer'>
 									<img src={linkedin} alt='' />
 								</a>
-								<a href='#'>
+								<a href='https://www.github.com/vinodkotagiri' target='_blank' rel='noreferrer'>
 									<img src={github} alt='' />
 								</a>
-								<a href='#'>
+								<a href='https://www.medium.com/@vinodkotagiri' target='_blank' rel='noreferrer'>
 									<img src={medium} alt='' />
 								</a>
 							</div>

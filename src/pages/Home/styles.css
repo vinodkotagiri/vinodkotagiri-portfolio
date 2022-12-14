@@ -6,6 +6,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .tagline {
 	margin-top: 1rem;
 	font-weight: 700;
@@ -32,6 +33,14 @@
 	line-height: 1.5em;
 	width: 96%;
 }
+.banner a {
+	margin-top: 32px;
+	display: flex;
+	gap: 16px;
+	text-decoration: none;
+	color: white !important;
+}
+
 .banner button {
 	color: #fff;
 	font-weight: 700;
