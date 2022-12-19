@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { ArrowRightCircle, CloudDownload } from 'react-bootstrap-icons'
-import heroImg from '../../assets/svg/hero-img.svg'
+import heroImg from '../../assets/svg/robot-img.svg'
 import './styles.css'
 export default function Home() {
 	return (

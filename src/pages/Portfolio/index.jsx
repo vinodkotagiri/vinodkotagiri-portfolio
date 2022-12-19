@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Button, Container, Row } from 'react-bootstrap'
 import { Projects } from './projects'
 import ProjectCard from '../../components/ProjectCard'
@@ -19,7 +19,12 @@ export default function Portfolio() {
 					<h2>Portfolio</h2>
 					<Row>
 						{Projects.slice(0, idx).map((project, index) => (
-							<ProjectCard title={project.title} description={project.description} imgUrl={project.imgUrl} />
+							<ProjectCard
+								title={project.title}
+								description={project.description}
+								imgUrl={project.imgUrl}
+								deployedUrl={project.deployedUrl}
+							/>
 						))}
 					</Row>
 					<Row className='button-wrapper'>
