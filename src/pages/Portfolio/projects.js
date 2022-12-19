@@ -25,6 +25,15 @@ export const Projects = [
 	},
 	{
 		id: 4,
+		title: 'Project Management App',
+		description: 'Full Stack MERN- Project Management App using GraphQL Server',
+		imgUrl:
+			'https://res.cloudinary.com/vinodkotagiri/image/upload/v1671432595/My%20Websites%20assets/portfolio-projects/960x0_t9eb1y.jpg',
+		deployedUrl: 'https://project-mgmt-gql.web.app/',
+	},
+
+	{
+		id: 5,
 		title: 'AWS Polymer Clone',
 		description: 'Full Stack MERN- AWS Polymer Clone App Clone',
 		imgUrl:
@@ -32,7 +41,7 @@ export const Projects = [
 		deployedUrl: 'https://aws-polymer-clone.netlify.app/',
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Stream Rhythm',
 		description: 'Frontend React- Music Straming APP',
 		imgUrl:
@@ -40,7 +49,7 @@ export const Projects = [
 		deployedUrl: 'https://stream-rhythm.netlify.app/',
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'YtGold',
 		description: 'Frontend React- Youtube Clone APP',
 		imgUrl:
@@ -48,7 +57,7 @@ export const Projects = [
 		deployedUrl: 'https://ytgold.netlify.app/',
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Weather',
 		description: 'Frontend React- Weather APP',
 		imgUrl:
