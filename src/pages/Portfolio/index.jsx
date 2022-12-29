@@ -24,6 +24,8 @@ export default function Portfolio() {
 								description={project.description}
 								imgUrl={project.imgUrl}
 								deployedUrl={project.deployedUrl}
+								clientSource={project.clientSource}
+								serverSource={project.serverSource}
 							/>
 						))}
 					</Row>

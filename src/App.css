@@ -31,6 +31,8 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 	position: relative;
+	background-image: url('./assets/img/39631.jpg');
+	background-repeat: repeat;
 	background-color: #121212 !important;
 	color: #fff !important;
 	font-family: 'Centra', sans-serif !important;

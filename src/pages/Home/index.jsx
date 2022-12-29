@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { ArrowRightCircle, CloudDownload } from 'react-bootstrap-icons'
-import heroImg from '../../assets/svg/robot-img.svg'
+// import heroImg from '../../assets/svg/robot-img.svg'
 import './styles.css'
 export default function Home() {
 	return (
@@ -48,16 +48,16 @@ export default function Home() {
 									href='#portfolio'
 									variant='info'
 									style={{ width: '150px' }}
-									onClick={() => window.open('https://1drv.ms/w/s!AqUO-r5Zn68aie5NhyJZFOt7JSdtBw?e=t6AAKt', '_blank')}>
+									onClick={() => window.open('https://1drv.ms/b/s!AqUO-r5Zn68aie8oJY3M5Y7w9gxfaA?e=MHBiAn', '_blank')}>
 									Resume
 									<CloudDownload size={25} />
 								</Button>
 							</Col>
 						</Row>
 					</Col>
-					<Col xs={12} md={6} xl={5}>
+					{/* <Col xs={12} md={6} xl={5}>
 						<img src={heroImg} alt='hero-img' />
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</section>
